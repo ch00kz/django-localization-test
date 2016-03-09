@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-08 23:21-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: translation/settings.py:7
+msgid "English"
+msgstr "Anglès"
+
+#: translation/settings.py:8
+msgid "Catalan"
+msgstr "català"
+
+#: translation/templates/home.html:5
+msgid "Localization with Django"
+msgstr "Localització amb Django"
+
+#: translation/templates/home.html:10
+msgid ""
+"When consciousness returned, and, as I soon learned, I was down but a "
+"moment, I sprang quickly to my feet searching for my sword, and there I "
+"found it, buried to the hilt in the green breast of Zad, who lay stone dead "
+"upon the ochre moss of the ancient sea bottom.  As I regained my full senses "
+"I found his weapon piercing my left breast, but only through the flesh and "
+"muscles which cover my ribs, entering near the center of my chest and coming "
+"out below the shoulder.  As I had lunged I had turned so that his sword "
+"merely passed beneath the muscles, inflicting a painful but not dangerous "
+"wound."
+msgstr ""
+"Quan la consciència es va girar i , com aviat vaig aprendre , jo era a baix , sinó un "
+"Moment , vaig saltar ràpidament als meus peus a la recerca de la meva espasa , i allà "
+"Va trobar , enterrada fins a l'empunyadura al pit verd de Zad , que estava ben mort "
+"Sobre la molsa ocre de l'antic fons del mar. Com vaig recuperar els meus sentits complets "
+"He trobat l'arma penetrant meu si esquerra , però només a través de la carn i "
+"Músculs que cobreixen les costelles , que entra a prop del centre de la meva pit i que ve "
+"Fora sota de l'espatlla . Com havia abalançar m'havia convertit de manera que l'espasa "
+"Simplement passava per sota dels músculs, causant una dolorosa però no perillós "
+"Ferida. "
