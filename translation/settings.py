@@ -1,4 +1,18 @@
-# Django settings for translation project.
+import os
+from django.utils.translation import ugettext_lazy as _
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('ca', _('Catalan')),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
+
+LANGUAGE_CODE = 'en-us'
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -91,6 +105,7 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
