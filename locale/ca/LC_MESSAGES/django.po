@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-08 23:21-0600\n"
+"POT-Creation-Date: 2016-03-10 11:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: translation/models.py:6
+msgid "Title"
+msgstr "Prova"
+
+#: translation/models.py:7
+msgid "Content"
+msgstr "Contigut"
 
 #: translation/settings.py:7
 msgid "English"
@@ -30,7 +38,12 @@ msgstr "català"
 msgid "Localization with Django"
 msgstr "Localització amb Django"
 
-#: translation/templates/home.html:10
+#: translation/templates/home.html:11
+#: translation/templates/translation/article_form.html:5
+msgid "Create Article"
+msgstr "Crear Article"
+
+#: translation/templates/home.html:16
 msgid ""
 "When consciousness returned, and, as I soon learned, I was down but a "
 "moment, I sprang quickly to my feet searching for my sword, and there I "
@@ -42,12 +55,18 @@ msgid ""
 "merely passed beneath the muscles, inflicting a painful but not dangerous "
 "wound."
 msgstr ""
-"Quan la consciència es va girar i , com aviat vaig aprendre , jo era a baix , sinó un "
-"Moment , vaig saltar ràpidament als meus peus a la recerca de la meva espasa , i allà "
-"Va trobar , enterrada fins a l'empunyadura al pit verd de Zad , que estava ben mort "
-"Sobre la molsa ocre de l'antic fons del mar. Com vaig recuperar els meus sentits complets "
-"He trobat l'arma penetrant meu si esquerra , però només a través de la carn i "
-"Músculs que cobreixen les costelles , que entra a prop del centre de la meva pit i que ve "
-"Fora sota de l'espatlla . Com havia abalançar m'havia convertit de manera que l'espasa "
-"Simplement passava per sota dels músculs, causant una dolorosa però no perillós "
-"Ferida. "
+"Quan la consciència es va girar i , com aviat vaig aprendre , jo era a "
+"baix , sinó un Moment , vaig saltar ràpidament als meus peus a la recerca de "
+"la meva espasa , i allà Va trobar , enterrada fins a l'empunyadura al pit "
+"verd de Zad , que estava ben mort Sobre la molsa ocre de l'antic fons del "
+"mar. Com vaig recuperar els meus sentits complets He trobat l'arma penetrant "
+"meu si esquerra , però només a través de la carn i Músculs que cobreixen les "
+"costelles , que entra a prop del centre de la meva pit i que ve Fora sota de "
+"l'espatlla . Com havia abalançar m'havia convertit de manera que l'espasa "
+"Simplement passava per sota dels músculs, causant una dolorosa però no "
+"perillós Ferida. "
+
+#: translation/templates/translation/article_detail.html:7
+#: translation/templates/translation/article_form.html:7
+msgid "Home"
+msgstr ""
