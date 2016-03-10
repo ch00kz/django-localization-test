@@ -8,6 +8,7 @@
       <a href="{% url 'article' article.pk  %}">{{ article.title }}</a>
     {% endfor %}
   </nav>
+  <a class="create" href="{% url "create-article" %}">{% trans "Create Article" %}</a>
 {% endblock %}
 
 {% block content %}
