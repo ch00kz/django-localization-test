@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import DetailView
+from django.views.generic import DetailView, CreateView
 
 from models import Article
 
@@ -14,3 +14,8 @@ def home(request):
 
 class ArticleView(DetailView):
     model = Article
+
+
+class AuthorCreate(CreateView):
+    model = Article
+    fields = ['title', 'content']

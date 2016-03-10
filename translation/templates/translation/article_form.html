@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}
+  <h1>{% trans "Create Article" %}</h1>
+  <nav>
+    <a href="{% url 'home' %}">{% trans "Home" %}</a>
+  </nav>
+{% endblock %}
+
+{% block content %}
+<form action="" method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Create" />
+</form>
+{% endblock %}
