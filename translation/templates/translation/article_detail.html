@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}
+  <h1>{{ article.title }}</h1>
+  <nav>
+    <a href="{% url 'home' %}">Home</a>
+  </nav>
+{% endblock %}
+
+{% block content %}
+<p>
+  {{ article.content }}
+</p>
+{% endblock %}
