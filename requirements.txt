@@ -1,3 +1,4 @@
 Django==1.5.5
 psycopg2
+django-extensions
 django-modeltranslation
