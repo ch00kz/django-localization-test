@@ -19,3 +19,4 @@ class ArticleView(DetailView):
 class AuthorCreate(CreateView):
     model = Article
     fields = ['title', 'content']
+    success_url = '/'
