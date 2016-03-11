@@ -32,7 +32,7 @@ msgstr "Anglès"
 
 #: translation/settings.py:8
 msgid "Catalan"
-msgstr "català"
+msgstr "Català"
 
 #: translation/templates/home.html:5
 msgid "Localization with Django"
