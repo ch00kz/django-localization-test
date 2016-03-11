@@ -7,7 +7,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^i18n/', include('django.conf.urls.i18n')),
+    url(r'^i18n/setlang/$', 'translation.i18n.set_language', name='set_language'),
 ]
 
 urlpatterns += i18n_patterns(
