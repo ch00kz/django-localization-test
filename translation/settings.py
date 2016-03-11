@@ -8,11 +8,11 @@ LANGUAGES = (
     ('ca', _('Catalan')),
 )
 
+LANGUAGE_CODE = 'en-gb'
+
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
-
-LANGUAGE_CODE = 'en-gb'
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -104,10 +104,12 @@ TEMPLATE_LOADERS = (
     # 'django.template.loaders.eggs.Loader',
 )
 
+
+
 MIDDLEWARE_CLASSES = (
+    'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -125,6 +127,11 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
+
+TEMPLATE_CONTEXT_PROCESSORS = [
+    'django.core.context_processors.i18n',
+    'django.contrib.auth.context_processors.auth'
+]
 
 INSTALLED_APPS = (
     'django.contrib.auth',
