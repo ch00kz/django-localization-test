@@ -14,7 +14,7 @@ h1, h2, h3 {
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url('https://images.unsplash.com/photo-1448908828366-ae00562d5fde?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=83ccb733ccb2951472d5caef32ee3a09');
     background-size: cover;
     display: flex;
@@ -34,6 +34,14 @@ nav {
         font-size: 14px;
         font-weight: 600;
         font-family: 'Lato', sans-serif;
+        margin: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $black;
+        transition: all 0.2s;
+        &:hover {
+            color: $red;
+        }
     }
 }
 
@@ -48,6 +56,13 @@ a.create {
     border-radius: 4px;
 }
 
+article {
+    max-width: 1000px;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
 p {
-    padding: 10px 100px;
+    line-height: 30px;
+    text-indent: 25px;
 }
