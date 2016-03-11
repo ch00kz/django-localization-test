@@ -4,11 +4,13 @@
 {% block title %}
   <h1>{% trans "Localization with Django" %}</h1>
   <nav>
-    {% for article in articles %}
-      <a href="{% url 'article' article.pk  %}">{{ article.title }}</a>
-    {% endfor %}
+    {% block navigation %}
+      {% for article in articles %}
+        <a href="{% url 'article' article.pk  %}">{{ article.title }}</a>
+      {% endfor %}
+    {% endblock %}
   </nav>
-  <a class="create" href="{% url "create-article" %}">{% trans "Create Article" %}</a>
+  <a class="create" href="{% url 'create-article' %}">{% trans "Create Article" %}</a>
 {% endblock %}
 
 {% block content %}
